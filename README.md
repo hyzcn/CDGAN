@@ -142,6 +142,32 @@ DeblurGAN , result of CycleGAN .
     <img src="./Results/compare.png" width="100%">
 </figure>
 
+## Comparison  
+- Two metrics are introduced to measure the similarity.
+One is Mean Squre Error (MSE) and the other is Structural Similarity Index[3] (SSIM). 
+- From left to right: Result with MSE measurement. 
+Result with SSIM measurement.
+
+<figure class="half">
+    <img src="./Comparison/Figure_mse.png" width="48%">
+    <img src="./Comparison/Figure_ssim.png" width="48%">
+</figure>
+
+
+- According to SSIM, about 69% out of all test images using CycleGAN outperforms that using DeblurGAN . And from the table, in a general sense, the result of CycleGAN is better than that of DeblurGAN because of a higher
+SSIM and lower MSE. Thus we can draw the conclusion
+that CycleGAN can achieve better visual result compared
+with DeblurGAN . And in most of the cases, CycleGAN
+outperforms DeblurGAN in image deblurring.
+
+
+| Metric | DeblurGAN | CycleGAN (ours) |
+| :---- |:------------:|:------------: |
+| SSIM |  0.737 |　0.784　 |
+| MSE | 667.3　| 667.3　 |
+
+
+
 # Team Members
 - [Zhiwen Qiang](https://github.com/QLightman)
 
