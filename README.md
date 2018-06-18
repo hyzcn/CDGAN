@@ -5,6 +5,12 @@
 
 - DeblurGAN Original paper: https://arxiv.org/pdf/1711.07064.pdf
 
+Our idea is that if we can
+treat blur and sharpness as a kind of image style, successful
+image deblurring may be achieved with unpaired image dataset
+based on CycleGAN. And the outcome indeed proves that
+CycleGAN can achieve similar result to that of DeblurGAN
+if we properly select the training dataset.
 
 # Requirements
 - [TensorFlow](https://www.tensorflow.org/)
@@ -73,7 +79,7 @@ $ python train.py --X data/CycleGAN_dataset/blurred.tfrecords \
 				   --skip False
 ```
 
-To change other default settings, you can check 'train.py'
+To change other default settings, you can check [train.py](https://github.com/QLightman/VRAR-Course-Project/blob/master/%20CycleGAN_Code/train.py)
 
 
 ## Check TensorBoard to see training progress and generated images.
