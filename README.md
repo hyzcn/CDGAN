@@ -149,8 +149,8 @@ One is Mean Squre Error (MSE) and the other is Structural Similarity Index[3] (S
 Result with SSIM measurement.
 
 <figure class="half">
-    <img src="./Comparison/Figure_mse.png" width="48%">
-    <img src="./Comparison/Figure_ssim.png" width="48%">
+    <img src="./Comparison/Figure_mse.png" width="45%">
+    <img src="./Comparison/Figure_ssim.png" width="45%">
 </figure>
 
 
