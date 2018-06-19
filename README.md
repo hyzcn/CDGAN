@@ -143,6 +143,7 @@ DeblurGAN , result of CycleGAN .
 </figure>
 
 ## Comparison  
+- Data used in comparison part are stored in **Comparison** floder.
 - Two metrics are introduced to measure the similarity.
 One is Mean Squre Error (MSE) and the other is Structural Similarity Index[3] (SSIM). 
 - From left to right: Result with MSE measurement. 
